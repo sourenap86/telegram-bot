@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import Application, MessageHandler, ContextTypes, filters
 
-TOKEN = os.getenv("8766754955:AAF1K16HSgZ9FtciOmg0Z7dXEywtkXq1HZI")
+TOKEN = os.getenv("8766754955:AAE5TsP7tYzM68kfpJYBkuGhnYoeZH0ET64")
 
 async def reply(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text.lower()
